@@ -19,16 +19,18 @@ So the best workflow is dump your code to Grok, asking grok to prompt claude fir
 
 ## Installation
 
+**Using Homebrew**
+
 ```bash
-go install github.com/yourusername/pew@latest
+brew tap yuann3/pew
+brew install pew
 ```
 
-Or build from source:
+**Linux**
 
 ```bash
-git clone https://github.com/yourusername/pew.git
-cd pew
-go build -o pew main.go
+# Download and install in one command
+curl -L https://raw.githubusercontent.com/yuann3/pew/main/install.sh | bash
 ```
 
 ## Usage
