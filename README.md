@@ -2,10 +2,7 @@
 
 Pew is a simple, lightweight CLI for dumping source code or directories into a single file, makes it easier to work with LLMs.
 
-Claude Code and Sonnet3.7 its amazing at coding, but it lacks intelligence.
-
-So the best workflow is dump your code to Grok, asking grok to prompt claude first, create a PLAN.md, and let your fellow claude to follow it
-
+Claude Code and Sonnet 3.7 its amazing at coding, but it lacks intelligence. So the best workflow is dump your code to Grok, asking grok to prompt claude first, create a `PLAN.md`, and let your fellow claude to follow it
 
 **WHAT THIS CLI CAN DO**
 
@@ -20,13 +17,13 @@ So the best workflow is dump your code to Grok, asking grok to prompt claude fir
 ## Installation
 
 ```bash
-go install github.com/yourusername/pew@latest
+go install github.com/yuann3/pew@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/yourusername/pew.git
+git clone https://github.com/yuann3/pew.git
 cd pew
 go build -o pew main.go
 ```
@@ -115,7 +112,3 @@ The output Markdown file contains:
 1. A directory structure tree (if dumping a directory)
 2. Code sections with proper syntax highlighting
 3. All text files found in the specified location(s), excluding any files that match patterns in your `.pewc` file
-
-## License
-
-MIT
