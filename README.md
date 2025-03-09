@@ -15,6 +15,9 @@ Claude Code and Sonnet 3.7 its amazing at coding, but it lacks intelligence. So 
 - Auto ignore the binary files
 - Smart file extension detection for proper syntax highlighting
 
+imgae below its how the out put files looks like
+![CleanShot 2025-03-09 at 19 28 44@2x](https://github.com/user-attachments/assets/36a15ae1-7a04-41de-81b3-2d3597fccc54)
+
 
 ## Installation
 
