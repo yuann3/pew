@@ -1,0 +1,17 @@
+# A Sample dot PEWC files
+# Lines starting with # are comments
+
+# Ignore specific files
+bla.md
+ILOVEYQ.md
+*.log
+*.tmp
+
+# Ignore directories (patterns ending with /)
+node_modules/
+dist/
+build/
+
+# Wildcards work just like in gitignore
+doc/*.txt      # Ignore all .txt files in doc/ directory
+test/*/data    # Ignore data in subdirectories of test/
