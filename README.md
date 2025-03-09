@@ -1,3 +1,5 @@
+![CleanShot 2025-03-09 at 17 30 29@2x](https://github.com/user-attachments/assets/da8e796f-6fab-4e47-8f02-11764d9117a1)
+
 # Pew
 
 Pew is a simple, lightweight CLI for dumping source code or directories into a single file, makes it easier to work with LLMs.
