@@ -39,7 +39,7 @@ var binarySignatures = [][]byte{
 }
 
 var defaultIgnorePatterns = []string{
-	".*", "node_modules/", "target/", "dist/", "build/", "bin/", "pkg/", ".pewc", "git/",
+	".*", "node_modules/", "target/", "dist/", "build/", "bin/", "pkg/", ".pewc", ".git/",
 }
 
 func main() {
@@ -499,6 +499,10 @@ func printDir(dir, prefix string, buf *bytes.Buffer, rootDir string, ignorePatte
 		if !isPathIgnored(path, rootDir, ignorePatterns) {
 			visibleFiles = append(visibleFiles, file)
 		}
+	}
+
+	if len(visibleFiles) == 0 {
+		return nil
 	}
 
 	sort.Slice(visibleFiles, func(i, j int) bool {

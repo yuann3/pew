@@ -11,6 +11,7 @@ ILOVEYQ.md
 node_modules/
 dist/
 build/
+.git/
 
 # Wildcards work just like in gitignore
 doc/*.txt      # Ignore all .txt files in doc/ directory
