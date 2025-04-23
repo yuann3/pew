@@ -113,6 +113,12 @@ By default, pew ignores these patterns:
 
 Use `--no-default-ignores` to override this behavior.
 
+## Notes
+
+- Pew identifies text files by checking extensions and content, skipping binary files like images or executables.
+- Pew-generated Markdown files are excluded from subsequent runs to avoid redundant content.
+- Use the `--no-default-ignores` flag cautiously, as it may include unwanted files.
+
 ## Output
 
 The output Markdown file contains:
