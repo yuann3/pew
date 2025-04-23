@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-VERSION="0.1.1"
+VERSION="0.1.2"
 BINARY_NAME="pew"
 INSTALL_DIR="/usr/local/bin"
 GITHUB_USER="yuann3"
